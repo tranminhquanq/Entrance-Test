@@ -80,3 +80,19 @@ Giải thích: Nhìn vào hình bên dưới
   `1 ≤ arr.length ≤ 100`.
 - [Đầu ra] Integer
   Số khu vườn thỏa yêu cầu đề bài.
+
+## B. Code Challenge
+
+Xây dựng trang web "Random Meal Generator" với các chức năng như trang web [Random Meal Generator](https://random-meal-generator-app.netlify.app/)
+[![Random Meal Generator](https://api.netlify.com/api/v1/badges/2973f7e5-0d75-42f2-a0b3-933b52b5edc3/deploy-status)](https://app.netlify.com/sites/random-meal-generator-app/deploys)
+
+### Chú ý:
+
+- Bổ sung phần banner vs footer cho trang web ( tuỳ chọn )
+
+- Trang web có tính Responsive cho các loại màn hình.
+
+- Sử dụng được các framework CSS như Bootstrap, JavaScript library như Jquery,... càng tốt.
+
+- Tối thiểu phải làm được layout giống như bài mẫu. Làm đẹp hơn là điểm +
+- API: [https://www.themealdb.com/api/json/v1/1/random.php](https://www.themealdb.com/api/json/v1/1/random.php)
