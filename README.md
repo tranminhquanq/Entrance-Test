@@ -47,9 +47,40 @@ let arr = [
   [0, 1, 1, 1, 0],
 ];
 
-numGardens(arr); // 1
+numGardens(arr); // return 1
 ```
 
 Giải thích: Nhìn vào hình bên dưới. **_Phần màu xanh lá phần khung gỗ. Màu đỏ là khu vườn_**.
 
-![Land-1](https://github.com/quangmindx/Entrance-Test/images/land1.png)
+![Land-1](https://raw.githubusercontent.com/quangmindx/Entrance-Test/main/images/land1.png?token=ANSH27SCJ7SMUSLG6AJCDZK7QZ5GY)
+
+```js
+// Với arr = [[1,1,1,1,1,1,1],[1,0,0,0,0,0,1],[1,0,1,1,1,0,1],[1,0,1,0,1,0,1],[1,0,1,1,1,0,1],[1,0,0,0,0,0,1],[1,1,1,1,1,1,1]];
+
+let arr = [
+  [1, 1, 1, 1, 1, 1, 1],
+  [1, 0, 0, 0, 0, 0, 1],
+  [1, 0, 1, 1, 1, 0, 1],
+  [1, 0, 1, 0, 1, 0, 1],
+  [1, 0, 1, 1, 1, 0, 1],
+  [1, 0, 0, 0, 0, 0, 1],
+  [1, 1, 1, 1, 1, 1, 1],
+];
+
+numGardens(arr); // return 2
+```
+
+Giải thích: Nhìn vào hình bên dưới
+
+![Land-2](https://raw.githubusercontent.com/quangmindx/Entrance-Test/main/images/land2.png)
+
+### Chú ý:
+
+- [Đầu vào] Matrix of Integer
+  `1 ≤ arr.length ≤ 100`.
+- [Đầu ra] Integer
+  Số khu vườn thỏa yêu cầu đề bài.
+
+## B. Code Challenge
+
+Xây dựng trang web "**Random Meal Generator**". Với những chức năng sau đây.
