@@ -80,7 +80,3 @@ Giải thích: Nhìn vào hình bên dưới
   `1 ≤ arr.length ≤ 100`.
 - [Đầu ra] Integer
   Số khu vườn thỏa yêu cầu đề bài.
-
-## B. Code Challenge
-
-Xây dựng trang web "**Random Meal Generator**". Với những chức năng sau đây.
