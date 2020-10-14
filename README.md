@@ -52,7 +52,7 @@ numGardens(arr); // return 1
 
 Giải thích: Nhìn vào hình bên dưới. **_Phần màu xanh lá phần khung gỗ. Màu đỏ là khu vườn_**.
 
-![Land-1](/quangmindx/Entrance-Test/raw/main/images/land1.png)
+<img src="./images/land1.png" alt="Land-1" />
 
 ```js
 // Với arr = [[1,1,1,1,1,1,1],[1,0,0,0,0,0,1],[1,0,1,1,1,0,1],[1,0,1,0,1,0,1],[1,0,1,1,1,0,1],[1,0,0,0,0,0,1],[1,1,1,1,1,1,1]];
@@ -72,7 +72,7 @@ numGardens(arr); // return 2
 
 Giải thích: Nhìn vào hình bên dưới
 
-![Land-2](/quangmindx/Entrance-Test/raw/main/images/land2.png)
+<img src="./images/land2.png" alt="Land-2" />
 
 ### Chú ý:
 
