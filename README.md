@@ -84,15 +84,20 @@ Giải thích: Nhìn vào hình bên dưới
 ## B. Code Challenge
 
 Xây dựng trang web "Random Meal Generator" với các chức năng như trang web [Random Meal Generator](https://random-meal-generator-app.netlify.app/)
-[![Random Meal Generator](https://api.netlify.com/api/v1/badges/2973f7e5-0d75-42f2-a0b3-933b52b5edc3/deploy-status)](https://app.netlify.com/sites/random-meal-generator-app/deploys)
+[![Random Meal Generator](https://api.netlify.com/api/v1/badges/2973f7e5-0d75-42f2-a0b3-933b52b5edc3/deploy-status)](https://random-meal-generator-app.netlify.app/)
 
 ### Chú ý:
 
+- Đảm bảo có đầy đủ các chức năng trong trang [Random Meal Generator](https://random-meal-generator-app.netlify.app/)
+
 - Bổ sung phần banner vs footer cho trang web ( tuỳ chọn )
 
-- Trang web có tính Responsive cho các loại màn hình.
+- Trang web có tính Responsive cho các loại màn hình đều có thể xem được.
 
 - Sử dụng được các framework CSS như Bootstrap, JavaScript library như Jquery,... càng tốt.
 
 - Tối thiểu phải làm được layout giống như bài mẫu. Làm đẹp hơn là điểm +
+
+- Có link trên github page hoặc link bất kỳ có thể truy cập càng tốt.
+
 - API: [https://www.themealdb.com/api/json/v1/1/random.php](https://www.themealdb.com/api/json/v1/1/random.php)
