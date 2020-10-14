@@ -1,45 +1,55 @@
-# Knowledge
+# 1. Chú ý
 
-* Knowledge of Javascript like: Variables, data types, array, object, function, scope, operators,...
-* Manipulated the DOM with HTML, CSS.
-* Know how to use API related such as GET, POST, PUT, DELETE.
+- Sau khi làm xong bài test, vui lòng gửi source code của bạn tới email contact@mindx.edu.vn với tiêu đề:`[Tên của bạn] [Test đầu vào CI] [SĐT]`.
 
-# Challenges
+- Khi nộp bài test, ứng viên cần gửi file code `(.html, .css, .js)` thay vì gửi file qua `Word` hay `Google Docs`.
+
+- Ứng viên được khuyến khích commit bài của mình lên Github (nếu đã biết về Git và Github) hoặc `nén lại bài test trước khi gửi, tránh trường hợp gửi file pdf hay txt`.
+
+# 2. Kiến thức
+
+- Ứng viên có kiến thức về lập trình Web với `HTML5, CSS3, Javascript`...
+
+- Ứng viên có nền tảng về `Web design`, hiểu được `Box Model`, `CSS Selectors`, `Flexbox`, `Responsive Design`.
+
+- Kiến thức về Javascript như `variables, data types, array, object, function, scope, operators,`...
+
+- Đã thao tác về DOM với HTML5, CSS3
+
+- Nắm bắt được các cách thao tác Networking như là: `GET, POST, PUT, DELETE API`.
+
+# 3. Thử thách
 
 ## A. Problem Solving
-#### 1. Junction or Self
 
-In this challenge, you have to separate integers into two families, establishing if they are Junction Numbers or Self Numbers. Given a positive number `n`:
+Trang trại của Van có rất nhiều vườn. Mỗi khu vườn đều được **_bao quanh hoàn toàn bằng các khung gỗ (bên trái, bên phải, trên, dưới)_** . Để thuê nhân công thu hoạch khi tới mùa thì Van cần biết số lượng khu vườn trong trang trại của mình. Cho một mảng số nguyên **_arr_** trong đó:
 
-If exists at least a single number which added to the sum of its digits is equal to `n`, then `n` is a ***Junction Number***.
+- Số 0: là phần đất của khu vườn.
+- Số 1: là các khung gỗ của khu vườn.
 
-If there are not numbers which added to the sum of their digits are equal to `n`, then `n` is a ***Self Number***.
-
-Given a positive integer `n`, implement a function that returns:
-
-The string `"Self"` if `n` is a ***Self Number***. If `n` is a ***Junction Number*** an array, ordered descendingly, containing the numbers which generate `n`.
+Nhiệm vụ của bạn là hãy trả về số lượng khu vườn trong trang trại.
 
 ```js
-junctionOrSelf(25) ➞ [17]
-// If we add 17 to the sum of its digits...
-// ...17 + 1 + 7 = 25
-// 25 is a Junction Number
-
-junctionOrSelf(818) ➞ [805, 796]
-// If we add 805 to the sum of its digits...
-// ...805 + 8 + 0 + 5 = 818
-// If we add 796 to the sum of its digits...
-// ...796 + 7 + 9 + 6 = 818
-// 818 is a Junction Number
-
-junctionOrSelf(7) ➞ "Self"
-// 1 + 1 = 2
-// 2 + 2 = 4
-// 3 + 3 = 6
-// No number added to its own digits is equal to 7
-// 7 is a Self Number
+function numGardens(arr) {
+  // do something
+  return result;
+}
 ```
 
-As in example `#3`, the sum of the digits of a positive integer lower than 10 is equal to that same integer.
+### Ví dụ:
 
-By the formal definition, a Junction number must have at least two other numbers that generate it, so that the Instructions are to be considered valid only for this specific challenge.
+```js
+// Với arr = [[0,0,1,0,0],[0,1,0,1,0],[0,1,1,1,0]]
+
+let arr = [
+  [0, 0, 1, 0, 0],
+  [0, 1, 0, 1, 0],
+  [0, 1, 1, 1, 0],
+];
+
+numGardens(arr); // 1
+```
+
+Giải thích: Nhìn vào hình bên dưới. **_Phần màu xanh lá phần khung gỗ. Màu đỏ là khu vườn_**.
+
+![Land-1](https://github.com/quangmindx/Entrance-Test/images/land1.png)
