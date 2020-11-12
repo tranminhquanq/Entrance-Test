@@ -1,6 +1,6 @@
 # 1. Chú ý
 
-- Sau khi làm xong bài test, vui lòng gửi source code của bạn tới email contact@mindx.edu.vn với tiêu đề:`[Tên của bạn] [Test đầu vào CI] [SĐT]`.
+- Sau khi làm xong bài test, vui lòng gửi source code của bạn tới email hieunt02@mindx.edu.vn với tiêu đề:`[Tên của bạn] [Test đầu vào Giảng viên] [SĐT]`.
 
 - Khi nộp bài test, ứng viên cần gửi file code `(.html, .css, .js)` thay vì gửi file qua `Word` hay `Google Docs`.
 
